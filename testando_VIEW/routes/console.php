@@ -16,3 +16,9 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+Artisan::command('instala', function () {
+   echo 'instala laravel /n';
+   echo 'instala vue \n';
+   echo 'instala publica \n';
+})->describe('instala nossa aplicacao');
